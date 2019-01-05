@@ -1,0 +1,11 @@
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\bin\Debug\sinema otomasyon.exe
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\bin\Debug\sinema otomasyon.pdb
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\sinema otomasyon.csprojAssemblyReference.cache
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\WindowsFormsApplication1.giris.resources
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\WindowsFormsApplication1.hasılat.resources
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\sinema otomasyon.csproj.GenerateResource.cache
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\sinema otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\sinema otomasyon.exe
+C:\Users\mfurkanyener\Desktop\sinema-otomasyonu-veri-tabansiz-\sinema otomasyon\sinema otomasyon\obj\x86\Debug\sinema otomasyon.pdb

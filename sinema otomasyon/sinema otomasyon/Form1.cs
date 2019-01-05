@@ -58,7 +58,7 @@ namespace WindowsFormsApplication1
             toplamhasılat += 10;
             textBox1.Text = seans1kisi.ToString();
             textBox2.Text = seans1ücret.ToString();
-            if (seans1kisi== 10)
+            if (seans1kisi == 10)
             {
                 button1.Enabled = false;
             }
@@ -66,8 +66,8 @@ namespace WindowsFormsApplication1
             {
                 button2.Enabled = true;
             }
-            
-            }
+
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -79,16 +79,16 @@ namespace WindowsFormsApplication1
             if (seans2kisi == 10)
             {
                 button3.Enabled = false;
-            
+
             }
             if (seans2kisi > 0)
             {
-               
+
                 button4.Enabled = true;
 
 
             }
-          
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -101,9 +101,9 @@ namespace WindowsFormsApplication1
             if (seans2kisi < 10)
             {
                 button3.Enabled = true;
-            
+
             }
-              if (seans2kisi <= 0)
+            if (seans2kisi <= 0)
             {
                 seans2kisi = 0;
                 seans2ücret = 0;
@@ -111,7 +111,7 @@ namespace WindowsFormsApplication1
                 textBox3.Text = seans2ücret.ToString();
                 button4.Enabled = false;
 
-            
+
             }
 
         }
@@ -126,7 +126,7 @@ namespace WindowsFormsApplication1
             if (seans3kisi == 10)
             {
                 button5.Enabled = false;
-            
+
             }
             if (seans3kisi > 0)
             {
@@ -152,18 +152,18 @@ namespace WindowsFormsApplication1
                 textBox6.Text = seans3kisi.ToString();
                 textBox5.Text = seans3ücret.ToString();
                 button6.Enabled = false;
-            
+
             }
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-          
-           int toplamücret = seans1ücret + seans2ücret + seans3ücret;
+
+            int toplamücret = seans1ücret + seans2ücret + seans3ücret;
             label4.Text = toplamücret.ToString();
             int toplamseyirci = seans1kisi + seans2kisi + seans3kisi;
             label3.Text = toplamseyirci.ToString();
-            
+
 
         }
 
@@ -172,19 +172,24 @@ namespace WindowsFormsApplication1
             mısırücret += 5;
             kisimısır++;
             toplamhasılat += 5;
-            textBox8.Text = kisimısır.ToString();
-            textBox7.Text = mısırücret.ToString();
+            textBox7.Text = kisimısır.ToString();
+            textBox8.Text = mısırücret.ToString();
 
-            
+
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            mısırücret -= 5;
-            kisimısır--;
-            toplamhasılat -= 5;
-            textBox8.Text = kisimısır.ToString();
-            textBox7.Text = mısırücret.ToString();
+            if (mısırücret > 0)
+            {
+                mısırücret -= 5;
+                kisimısır--;
+                toplamhasılat -= 5;
+                textBox8.Text = kisimısır.ToString();
+                textBox7.Text = mısırücret.ToString();
+            }
+
+
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -192,19 +197,21 @@ namespace WindowsFormsApplication1
             kolaücret += 3;
             kisikola++;
             toplamhasılat += 3;
-            textBox9.Text = kisikola.ToString();
-            textBox10.Text = kolaücret.ToString();
+            textBox10.Text = kisikola.ToString();
+            textBox9.Text = kolaücret.ToString();
 
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            kolaücret -= 3;
-            kisikola++;
-            toplamhasılat -= 3;
-            textBox9.Text = kisikola.ToString();
-            textBox10.Text = kolaücret.ToString();
-
+            if (kolaücret > 0)
+            {
+                kolaücret -= 3;
+                kisikola--;
+                toplamhasılat -= 3;
+                textBox9.Text = kisikola.ToString();
+                textBox10.Text = kolaücret.ToString();
+            }
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -259,7 +266,7 @@ namespace WindowsFormsApplication1
             button12.Enabled = true;
             button13.Enabled = true;
             button14.Enabled = true;
-            
+
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -332,15 +339,15 @@ namespace WindowsFormsApplication1
             hasılat hasılat = new hasılat();
             hasılat.Show();
             hasılat.label1.Text = toplamhasılat.ToString(); ;
-            
+
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
             int toplamücret = suücret + mısırücret + kolaücret;
-            label22.Text = toplamücret.ToString();
+            label21.Text = toplamücret.ToString();
             int toplamürünkisi = kisikola + kisimısır + kisisu;
-            label21.Text = toplamürünkisi.ToString();
+            label22.Text = toplamürünkisi.ToString();
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -403,19 +410,49 @@ namespace WindowsFormsApplication1
             button12.Enabled = false;
             button13.Enabled = false;
             button14.Enabled = false;
-            
-            
+
+
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button18_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

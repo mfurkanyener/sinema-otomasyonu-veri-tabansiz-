@@ -39,5 +39,15 @@ namespace WindowsFormsApplication1
         {
             label4.Text = "KullanıcıAdı:admin Şifre:12345";
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
